@@ -1,0 +1,91 @@
+#container {
+  margin-top: -15px;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+Ion-Note {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  display: block;
+  color: #ffffff;
+}
+Ion-Img {
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+}
+
+Ion-Card-Title {
+  font-size: medium;
+}
+.red {
+  fill: var(--color-heart);
+}
+.hidden {
+  display: none;
+}
+
+.cardContent {
+  text-align: center;
+  visibility: hidden;
+  height: 0px;
+  transition: all 0.2s ease-out;
+}
+.cardContent.cardContentInfo {
+  visibility: visible;
+  height: 400px;
+}
+
+.iconRowTop {
+  display: flex;
+  justify-content: space-around;
+}
+.toolbar {
+  margin-top: 10px;
+  margin-bottom: -4px;
+}
+.downArrow:hover {
+  color: blue;
+}
+.upArrow:hover {
+  color: blue;
+}
+Ion-Modal {
+  --background: rgba(255, 255, 255, 0.115);
+}
+.closeIcon {
+  margin-left: 90%;
+  margin-top: -5%;
+  position: absolute;
+}
+.galleryCard {
+  padding-top: 20px;
+  margin-top: 35%;
+}
+.galleryImg {
+  width: 270px;
+  height: 270px;
+}
+.backArrow {
+  color: #ffffff5c;
+  position: absolute;
+  margin-left: -5%;
+}
+.forwardArrow {
+  color: #ffffff5c;
+  position: absolute;
+  margin-left: 84%;
+}
+.moveArrows {
+  margin-top: -57%;
+}
+.arrows {
+  position: relative;
+  z-index: 1;
+}
+.galleryContent {
+  height: 290px;
+}
